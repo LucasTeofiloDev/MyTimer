@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'DS-Digital';
+  src: url('fonts/DS-DIGIT-.TTF') format('truetype');
+}
+.clock{
+    font-family: 'DS-Digital', monospace;
+    font-size: 3rem;
+    color: #ffffff;
+}
+body{
+background-image: url('img/timer.jpg');
+background-size: cover; /* Ajustar para cobrir toda a tela*/
+background-position: center; 
+background-repeat: no-repeat;
+}
+header{
+  text-align: center;
+  color: white;
+}
+
+section{
+text-align: center;
+color: white;
+border-radius: 10px;
+padding: 15px; /*empurra o conteúdo para dentro*/
+
+margin: auto;/*Corrigir a margem*/
+
+}
+.timer{
+    text-align: center;
+}
+
+footer{
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  
+}
+
+.pausado {
+  color: rgb(0, 0, 0);
+}
